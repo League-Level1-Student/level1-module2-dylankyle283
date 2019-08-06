@@ -13,7 +13,7 @@ package _03_smurf;
  */
 
 public class Smurf {
-
+	boolean girl;
 	private String name;
 
 	Smurf(String name) {
@@ -30,14 +30,37 @@ public class Smurf {
 
 	/* Papa Smurf wears a red hat, all the others are white. */
 	public String getHatColor() {
+		if (name.equals("Papa")) {
+			return "my hat is red";
+		}
+			else {
+				return "my hat iswhite";
+			}
+		
 		// 3. Fill in this method
-		return "";
+	
 	}
 
+	 void setBoy(){
+		girl = false;
+	}
+	
+	 void setGirl(){
+			girl = true;
+		}
+	
+	
+	
 	/* Smurfette is the only female Smurf. */
 	public String isGirlOrBoy() {
-		// 4. Fill in this method
-		return "";
+	
+	if (girl == true) {
+		return "I am a girl";
+	}
+	else {
+		return "I am a boy";
+	}
+	
 	}
 
 }
