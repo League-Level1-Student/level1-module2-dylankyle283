@@ -7,12 +7,77 @@ public class Minion {
 		private String master;
 
 
-void getName(){
+ public Minion(String name, int eyes, String color, String master) {
+			// TODO Auto-generated constructor stub
+		}
+
+
+String getName(){
 	
 	
 	
+	return name;
+}
+
+
+void setName(String name) {
+	this.name = name;
+}
+
+
+
+  int getEyes() {
+	
+	return eyes;
+}
+
+
+
+
+
+void setEyes(int eyes) {
+	this.eyes = eyes;
+}
+
+  String getColor() {
+
+	return color;
+}
+
+
+void setColor(String color) {
+	this.color = color;
+}
+
+
+
+
+
+
+public void setMaster(String master) {
+	this.master = master;
 	
 }
+
+
+ String getMaster() {
+	
+	return master;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

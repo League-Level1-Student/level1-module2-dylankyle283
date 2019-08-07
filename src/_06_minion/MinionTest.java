@@ -11,20 +11,16 @@ import org.junit.Test;
 
 
 /*
-
 1. 
 Run this MinionTest class. Notice the JUnit tab (by the Package Explorer). It shows a RED bar, because the tests do
 not run successfully. Check the Failure Trace below that shows "Minion cannot be resolved to a type". 
 This is because there is no Minion class in the package.
-
 2.
  So to make these tests pass, you will first need to create a Minion class with the member variables below:
-
   			private String name; 
-  			private int eyes; 
+  			private  eyes; 
   			private String color; 
   			private String master;
-
  3.
   Next, create a constructor, and getters and setters for all the member variables of the Minion class. 
   If they’re done right, all these tests will pass.
@@ -60,6 +56,4 @@ public class MinionTest {
 	}
 
 }
-
-
 
