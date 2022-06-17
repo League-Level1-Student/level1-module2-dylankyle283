@@ -1,6 +1,6 @@
 package _01_getters_and_setters;
 
-public class Taco {
+public class taco {
 
 	private String meat= "beef";
 	private String sauce = "salsa";

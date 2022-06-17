@@ -14,6 +14,6 @@ public static void main(String[] args) {
 	stuart.setEyes(1);
 	stuart.setColor("yellow");
 	stuart.setMaster("");
-System.out.println(dave.getName().toString());
+System.out.println(stuart.getName().toString());
 }
 }

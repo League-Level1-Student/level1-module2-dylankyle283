@@ -9,7 +9,14 @@ public class Minion {
 
  public Minion(String name, int eyes, String color, String master) {
 			// TODO Auto-generated constructor stub
-		}
+	
+ this.name = name;
+ this.eyes = eyes;
+ this.color = color;
+ this.master = master;
+ 
+ 
+ }
 
 
 String getName(){
